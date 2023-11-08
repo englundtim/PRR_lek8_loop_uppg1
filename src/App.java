@@ -11,5 +11,12 @@ public class App {
         for(int i2 =0; i2<=5; i2++)
             System.out.println(i2);
 
+        System.out.println(" ");
+        System.out.println("Uppgift d)");
+        int i3 = 2;
+        do{
+            System.out.println(i3);
+            i3++;
+        }while(i3<=5);
     }
 }
