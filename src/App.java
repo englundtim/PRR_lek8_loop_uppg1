@@ -45,11 +45,16 @@ public class App {
             System.out.println("Cell med index "+(i7-1)+" har värdet: "+tal[i7-1]);
         }
         System.out.println(" ");
-        System.out.println("Uppgift i)");
+        System.out.println("Uppgift i+j)");
+        System.out.println("Hur många rader av * vill du ha?");
         int figur = in.nextInt();
-        System.out.println("Hur många * vill du ha?");
-        for(int i8=0; i8<figur; i8++){
-            System.out.print("*");
+        System.out.println("Hur många kolummner av * vill du ha?");
+        int row = in.nextInt();
+        for(int i9=0; i9<row ; i9++){
+            System.out.println();
+            for(int i8=0; i8<figur; i8++){
+                System.out.print("*");
+            }
         }
     }
 }
