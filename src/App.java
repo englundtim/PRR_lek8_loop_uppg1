@@ -18,5 +18,12 @@ public class App {
             System.out.println(i3);
             i3++;
         }while(i3<=5);
+        System.out.println(" ");
+        System.out.println("Uppgift e)");
+        int i4=5;
+        while(i4>=0){
+            System.out.println(i4);
+            i4--;
+        }
     }
 }
