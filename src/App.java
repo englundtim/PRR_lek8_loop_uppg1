@@ -44,5 +44,12 @@ public class App {
         for(int i7=tal.length; i7>0; i7--){
             System.out.println("Cell med index "+(i7-1)+" har värdet: "+tal[i7-1]);
         }
+        System.out.println(" ");
+        System.out.println("Uppgift i)");
+        int figur = in.nextInt();
+        System.out.println("Hur många * vill du ha?");
+        for(int i8=0; i8<figur; i8++){
+            System.out.print("*");
+        }
     }
 }
