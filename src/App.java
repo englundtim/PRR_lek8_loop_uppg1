@@ -34,15 +34,15 @@ public class App {
             System.out.println(i5);
         
         System.out.println(" ");
-        System.out.println("Uppgift g)");
+        System.out.println("Uppgift g+h)");
         
         int[] tal = new int[5];
         for(int i6=0; i6<tal.length; i6++){
             System.out.println("vad är ditt tal för ["+i6+"]");
             tal[i6] = in.nextInt();
         }
-        for(int i7=0; i7<tal.length; i7++){
-            System.out.println("Cell med index "+i7+" har värdet: "+tal[i7]);
+        for(int i7=tal.length; i7>0; i7--){
+            System.out.println("Cell med index "+(i7-1)+" har värdet: "+tal[i7-1]);
         }
     }
 }
