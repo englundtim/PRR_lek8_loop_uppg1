@@ -25,5 +25,9 @@ public class App {
             System.out.println(i4);
             i4--;
         }
+        System.out.println(" ");
+        System.out.println("Uppgift f)");
+        for(int i5=5; i5>=0; i5--)
+            System.out.println(i5);
     }
 }
